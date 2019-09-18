@@ -1,0 +1,8 @@
+var a,b:integer; 
+begin 
+writeln('введите два числа для сравнения');
+readln(a,b);
+if a>b then write(a, ' > ', b);
+if a=b then write(a, ' = ', b);
+if a<b then write(a, ' < ', b)
+end. 
