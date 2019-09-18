@@ -1,0 +1,11 @@
+var 
+  n,i: integer;
+  a,p: real;
+begin
+  write('Введите a,n: ');
+  readln(a,n);
+  p := 1;
+  for i := 1 to n do
+    p := p * a;
+  writeln(a,' в степени ',n,' = ',p);
+end.
